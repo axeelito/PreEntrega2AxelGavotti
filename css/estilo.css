@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+
+header {
+    height: 80px;
+}
+
+.logollave {
+    width: 70px;
+    height: 70px;
+    margin-top: 3px;
+}
+
+body {
+    font-family: 'PT Serif', serif;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.nav-link {
+    padding: 30px;
+    font-size: 20px;
+}
+
+.nav-item {
+    margin: 0 20px;
+}
+
+.nav-link:hover {
+    text-transform: uppercase;
+}
+
+.iconobusqueda {
+    width: 20px;
+    height: 20px;
+}
+
+.botonbusqueda {
+    background-color: black;
+}
+
+.inputbusqueda {
+    width: 180px;
+    height: 30px;
+}
+
+.card {
+    width: 350px;
+    height: 100px;
+}
+
+.card img {
+    cursor: pointer;
+}
