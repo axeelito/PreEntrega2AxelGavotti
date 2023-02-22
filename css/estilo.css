@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
 
 header {
-    height: 80px;
+    width: 100%;
 }
 
 .logollave {
@@ -12,6 +12,8 @@ header {
 
 body {
     font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(3, 3, 3, 0.274);
 }
 
 h1 {
@@ -50,6 +52,19 @@ h1 {
     height: 30px;
 }
 
+.imgcarousel {
+    object-fit: cover;
+}
+
+.serviciosinicio img {
+    width: 400px;
+}
+
+.casainicio img {
+    width: 1000px;
+}
+
+
 .card {
     width: 300px;
     height: 10px;
@@ -58,6 +73,10 @@ h1 {
 
 .card img {
     cursor: pointer;
+}
+
+.candadosproductos {
+    margin-top: 100px;
 }
 
 /* FOOTER */
@@ -72,7 +91,6 @@ footer {
     width: 30px;
     height: 30px;
 }
-
 
 /* instagram */
 
@@ -201,10 +219,10 @@ footer {
     align-items: center;
     display: flex;
     width: 100%;
-    height: 590px;
 }
 
 .mapap {
+    width: 100%;
     margin: 0 20px 100px 20px;
     display: flex;
     border: 3px black solid;
@@ -218,51 +236,19 @@ footer {
 
 /* NOSOTROS */
 
-.mns {
-    border: 3px black solid;
-    margin: 0 20px 90px 20px;
-    padding: 20px;
-}
-
-.nosotrosmain {
-    display: flex;
-    padding-bottom: 50px;
-}
-
-.subtitulonosotros {
-    font-size: 40px;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: underline;
-    padding-bottom: 30px;
-}
-
-.nosimg1 {
-    width: 600px;
-    height: 400px;
+.imagen1nosotros {
+    width: 40%;
     border-radius: 50px;
-    cursor: pointer;
 }
 
-.textnosotros1 {
-    padding-left: 3px;
-    padding-top: 10px;
-    padding-right: 10px;
-}
-
-.nosotrosmain2 {
-    display: flex;
-}
-
-.textnosotros2 {
-    padding-top: 10px;
-}
-
-.nosimg2 {
-    width: 700px;
-    height: 500px;
+.imagen2nosotros {
+    width: 40%;
     border-radius: 50px;
-    cursor: pointer;
+}
+
+.mainnosotros {
+    border: 3px solid black;
+    margin: 40px;
 }
 
 /* CONTACTO*/
