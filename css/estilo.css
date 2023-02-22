@@ -237,13 +237,15 @@ footer {
 /* NOSOTROS */
 
 .imagen1nosotros {
-    width: 40%;
+    width: 700px;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 .imagen2nosotros {
-    width: 40%;
+    width: 700px;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 .mainnosotros {
