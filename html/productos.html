@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bootstrap</title>
+    <title>Productos</title>
     <!-- LINK BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -15,16 +15,17 @@
 </head>
 
 <body class="container-fluid p-0 m-0">
+
     <!--------------------------------------- HEADER --------------------------------------->
 
-    <!-- NAVBAR -->
     <header>
+        <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg bg-black">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">
                     <img class="logollave" src="../img/logollave.png" alt="logo de llave">
                 </a>
-                <h1 class="text-white">Cerrajeria San Jose</h1>
+                <h1 class="text-white">Cerrajería San Jose</h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -60,57 +61,53 @@
                         </svg>
                     </button>
                     <button class="botoncarrito bg-black">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-cart text-white carrito" viewBox="0 0 16 16">
-                            <path
-                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
-                        </svg>
+                        <i class="fa-solid fa-cart-shopping iconocarrito text-white d-flex align-items-center"></i>
                     </button>
                 </form>
             </div>
         </nav>
+        <!-- FIN NAVBAR -->
     </header>
-
-    <!-- FIN NAVBAR -->
 
     <!--------------------------------------- FIN HEADER --------------------------------------->
 
     <!--------------------------------------- MAIN --------------------------------------->
 
-    <!-- PRODUCTOS -->
     <main>
-        <h2 class="text-center text-decoration-underline mt-5">NUESTROS PRODUCTOS</h2>
+
+        <!-- PRODUCTOS -->
+        <h2 class="text-center text-decoration-underline mt-5 fw-bold">NUESTROS PRODUCTOS</h2>
         <section class="cards">
-            <div class="row row-cols-xl-3 row-cols-md-3 row-cols-sm-1 mb-5">
-                <div class="col d-flex justify-content-evenly candadosproductos">
+            <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 mb-5">
+                <div class="col d-flex justify-content-center candadosproductos">
                     <div class="card h-100 text-center">
                         <img src="../img/prive703.jpg" class="card-img-top" alt="Candado Prive 703">
                         <div class="card-body">
                             <h3 class="card-title">Candado Prive 703</h3>
                             <p class="card-text">Candado de seguridad Numérico de bronce </p>
-                            <p class="card-text">$4000</p>
+                            <p class="card-text">$4300</p>
                             <a href="#" class="btn btn-primary">Añadir al carrito</a>
                         </div>
                     </div>
                 </div>
-                <div class="col d-flex justify-content-evenly candadosproductos">
+                <div class="col d-flex justify-content-center candadosproductos">
                     <div class="card h-100 text-center">
                         <img src="../img/prive353.jpg" class="card-img-top" alt="Candado Prive 353">
                         <div class="card-body">
                             <h3 class="card-title">Candado Prive 353</h3>
                             <p class="card-text">Candado de seguridad Numérico de bronce </p>
-                            <p class="card-text">$4000</p>
+                            <p class="card-text">$4500</p>
                             <a href="#" class="btn btn-primary">Añadir al carrito</a>
                         </div>
                     </div>
                 </div>
-                <div class="col d-flex justify-content-around candadosproductos">
+                <div class="col d-flex justify-content-center candadosproductos">
                     <div class="card h-100 text-center">
                         <img src="../img/prive358.jpg" class="card-img-top" alt="Candado Prive 358">
                         <div class="card-body">
                             <h3 class="card-title">Candado Prive 358</h3>
                             <p class="card-text">Candado de seguridad de bronce blindado </p>
-                            <p class="card-text">$4000</p>
+                            <p class="card-text">$4400</p>
                             <a href="#" class="btn btn-primary">Añadir al carrito</a>
                         </div>
                     </div>
@@ -124,7 +121,7 @@
                     <div class="card-body">
                         <h3 class="card-title">Cerradura Prive 200</h3>
                         <p class="card-text">Cerradura de seguridad de 4 combinaciones</p>
-                        <p class="card-text">$4000</p>
+                        <p class="card-text">$4500</p>
                         <a href="#" class="btn btn-primary">Añadir al carrito</a>
                     </div>
                 </div>
@@ -135,7 +132,7 @@
                     <div class="card-body">
                         <h3 class="card-title">Cerradura Prive 109</h3>
                         <p class="card-text">Cerradura común para puerta placa madera</p>
-                        <p class="card-text">$4000</p>
+                        <p class="card-text">$4400</p>
                         <a href="#" class="btn btn-primary">Añadir al carrito</a>
                     </div>
                 </div>
@@ -146,7 +143,7 @@
                     <div class="card-body">
                         <h3 class="card-title">Cerradura Prive 206</h3>
                         <p class="card-text">Cerradura de seguridad de 4 combinaciones para puerta angosta</p>
-                        <p class="card-text">$4000</p>
+                        <p class="card-text">$4300</p>
                         <a href="#" class="btn btn-primary">Añadir al carrito</a>
                     </div>
                 </div>
@@ -159,7 +156,7 @@
                     <div class="card-body">
                         <h3 class="card-title">Cerrojo Prive 216</h3>
                         <p class="card-text">Cerrojo de seguridad doble perno de 4 combinaciones blindado</p>
-                        <p class="card-text">$4000</p>
+                        <p class="card-text">$3000</p>
                         <a href="#" class="btn btn-primary">Añadir al carrito</a>
                     </div>
                 </div>
@@ -170,7 +167,7 @@
                     <div class="card-body">
                         <h3 class="card-title">Cerrojo Prive 212</h3>
                         <p class="card-text">Cerrojo de seguridad doble perno para portón corredizo</p>
-                        <p class="card-text">$4000</p>
+                        <p class="card-text">$3800</p>
                         <a href="#" class="btn btn-primary">Añadir al carrito</a>
                     </div>
                 </div>
@@ -181,7 +178,7 @@
                     <div class="card-body">
                         <h3 class="card-title">Cerrojo Prive 211</h3>
                         <p class="card-text">Cerrojo de seguridad de 4 combinaciones triple perno</p>
-                        <p class="card-text">$4000</p>
+                        <p class="card-text">$3500</p>
                         <a href="#" class="btn btn-primary">Añadir al carrito</a>
                     </div>
                 </div>
@@ -196,19 +193,8 @@
                         <img src="../img/candex115.jpg" class="card-img-top" alt="Cerradura Candex 115">
                         <div class="card-body">
                             <h3 class="card-title">Cerradura Candex 115</h3>
-                            <p class="card-text">Cerradura de seguridad de 4 combinaciones</p>
-                            <p class="card-text">$4000</p>
-                            <a href="#" class="btn btn-primary">Añadir al carrito</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col d-flex justify-content-evenly">
-                    <div class="card h-100 text-center">
-                        <img src="../img/candex117.jpg" class="card-img-top" alt="Cerradura Candex 117">
-                        <div class="card-body">
-                            <h3 class="card-title">Cerradura Candex 117</h3>
-                            <p class="card-text">Cerradura común para puerta placa madera</p>
-                            <p class="card-text">$4000</p>
+                            <p class="card-text">Cerradura de seguridad chica, de 6 combinaciones</p>
+                            <p class="card-text">$5000</p>
                             <a href="#" class="btn btn-primary">Añadir al carrito</a>
                         </div>
                     </div>
@@ -218,8 +204,19 @@
                         <img src="../img/candex118.jpg" class="card-img-top" alt="Cerradura Candex 118">
                         <div class="card-body">
                             <h3 class="card-title">Cerradura Candex 118</h3>
-                            <p class="card-text">Cerradura de seguridad de 4 combinaciones para puerta angosta</p>
-                            <p class="card-text">$4000</p>
+                            <p class="card-text">Cerradura de seguridad doble perno, de 6 combinaciones</p>
+                            <p class="card-text">$6800</p>
+                            <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-evenly">
+                    <div class="card h-100 text-center">
+                        <img src="../img/candex117.jpg" class="card-img-top" alt="Cerradura Candex 117">
+                        <div class="card-body">
+                            <h3 class="card-title">Cerradura Candex 117</h3>
+                            <p class="card-text">Cerradura de seguridad, de 4 combinaciones mediana</p>
+                            <p class="card-text">$6000</p>
                             <a href="#" class="btn btn-primary">Añadir al carrito</a>
                         </div>
                     </div>
@@ -231,8 +228,8 @@
                         <img src="../img/acytra161.jpeg" class="card-img-top" alt="Cerradura Acytra 161">
                         <div class="card-body">
                             <h3 class="card-title">Cerradura Acytra 161</h3>
-                            <p class="card-text">Candado de seguridad Numérico de bronce </p>
-                            <p class="card-text">$4000</p>
+                            <p class="card-text">Cerradura doble perno con frente de bronce, de 6 combinaciones</p>
+                            <p class="card-text">$11500</p>
                             <a href="#" class="btn btn-primary">Añadir al carrito</a>
                         </div>
                     </div>
@@ -242,8 +239,8 @@
                         <img src="../img/acytra175.jpeg" class="card-img-top" alt="Cerradura Acytra 175">
                         <div class="card-body">
                             <h3 class="card-title">Cerradura Acytra 175</h3>
-                            <p class="card-text">Candado de seguridad Numérico de bronce </p>
-                            <p class="card-text">$4000</p>
+                            <p class="card-text">Cerradura de seguridad simple, de 4 combinaciones</p>
+                            <p class="card-text">$7430</p>
                             <a href="#" class="btn btn-primary">Añadir al carrito</a>
                         </div>
                     </div>
@@ -253,8 +250,8 @@
                         <img src="../img/acytra701.jpeg" class="card-img-top" alt="Cerradura Acytra 701">
                         <div class="card-body">
                             <h3 class="card-title">Cerradura Acytra 701</h3>
-                            <p class="card-text">Candado de seguridad de bronce blindado </p>
-                            <p class="card-text">$4000</p>
+                            <p class="card-text">Cerradurra doble perno para porton corredizo, de 6 combinaciones</p>
+                            <p class="card-text">$9840</p>
                             <a href="#" class="btn btn-primary">Añadir al carrito</a>
                         </div>
                     </div>
@@ -266,8 +263,8 @@
                         <img src="../img/manijabronce.webp" class="card-img-top" alt="Manija de bronce">
                         <div class="card-body">
                             <h3 class="card-title">Manija de bronce</h3>
-                            <p class="card-text">Cerrojo de seguridad doble perno de 4 combinaciones blindado</p>
-                            <p class="card-text">$4000</p>
+                            <p class="card-text">Manija de bronce pulida</p>
+                            <p class="card-text">$4100</p>
                             <a href="#" class="btn btn-primary mb-0">Añadir al carrito</a>
                         </div>
                     </div>
@@ -277,8 +274,8 @@
                         <img src="../img/manijanegra.webp" class="card-img-top" alt="Manija negra mate">
                         <div class="card-body">
                             <h3 class="card-title">Manija negra mate</h3>
-                            <p class="card-text">Cerrojo de seguridad doble perno para portón corredizo</p>
-                            <p class="card-text">$4000</p>
+                            <p class="card-text">Doble manija negra mate</p>
+                            <p class="card-text">$2800</p>
                             <a href="#" class="btn btn-primary">Añadir al carrito</a>
                         </div>
                     </div>
@@ -288,15 +285,18 @@
                         <img src="../img/manijaplata.webp" class="card-img-top" alt="Manija color plata">
                         <div class="card-body">
                             <h3 class="card-title">Manija de plata</h3>
-                            <p class="card-text">Cerrojo de seguridad de 4 combinaciones triple perno</p>
-                            <p class="card-text">$4000</p>
+                            <p class="card-text">Manija bañada en plata pulida</p>
+                            <p class="card-text">$8300</p>
                             <a href="#" class="btn btn-primary">Añadir al carrito</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- FIN PRODUCTOS -->
     </main>
+
+    <!--------------------------------------- FINAL MAIN --------------------------------------->
 
     <!--------------------------------------- FOOTER --------------------------------------->
     <footer>
@@ -315,14 +315,14 @@
                     <a class="h5 text-decoration-none text-secondary" href="#">Servicios a domicilio</a>
                     <a class="h5 text-decoration-none text-secondary" href="#">Servicio de autos</a>
                     <a class="h5 text-decoration-none text-secondary" href="#">Servicio de bodegas y caja fuerte</a>
-                    <a class="h5 text-decoration-none text-secondary" href="#">Servicio de reparacion de cerraduras</a>
+                    <a class="h5 text-decoration-none text-secondary" href="#">Servicio de reparación de cerraduras</a>
                 </div>
                 <div class="row col-xs-12 col-md-6 col-lg-3">
                     <p class="h4">Información de la empresa</p>
                     <a class="h5 text-decoration-none text-secondary " href="#">Acerca de Cerrajería San Jose</a>
                     <a class="h5 text-decoration-none text-secondary " href="#">Formas de pago</a>
                     <a class="h5 text-decoration-none text-secondary " href="#">Términos y condiciones </a>
-                    <a class="h5 text-decoration-none text-secondary " href="#">Politicas de privacidad</a>
+                    <a class="h5 text-decoration-none text-secondary " href="#">Políticas de privacidad</a>
                 </div>
                 <div class="row col-xs-12 col-md-6 col-lg-3">
                     <p class="h4">Nuestras Redes</p>
@@ -365,6 +365,8 @@
             </div>
         </div>
     </footer>
+
+    <!--------------------------------------- FINAL FOOTER --------------------------------------->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"

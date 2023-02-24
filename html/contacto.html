@@ -5,25 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bootstrap</title>
+    <title>Contacto</title>
     <!-- LINK BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a3efa730cc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/estilo.css">
     <!-- EL LINK DE CSS PERSONAL VA DESPUES DEL DE BOOTSTRAP, POR LA CASCADA -->
 </head>
 
 <body class="container-fluid p-0 m-0">
+
     <!--------------------------------------- HEADER --------------------------------------->
 
-    <!-- NAVBAR -->
-    <header class="fixed-top">
-        <nav class="navbar navbar-expand-lg bg-black p-0 me-0">
+    <header>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg bg-black">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">
                     <img class="logollave" src="../img/logollave.png" alt="logo de llave">
                 </a>
-                <h1 class="text-white">Cerrajeria San Jose</h1>
+                <h1 class="text-white">Cerrajería San Jose</h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -59,40 +61,121 @@
                         </svg>
                     </button>
                     <button class="botoncarrito bg-black">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-cart text-white carrito" viewBox="0 0 16 16">
-                            <path
-                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
-                        </svg>
+                        <i class="fa-solid fa-cart-shopping iconocarrito text-white d-flex align-items-center"></i>
                     </button>
                 </form>
             </div>
         </nav>
+        <!-- FIN NAVBAR -->
     </header>
 
-    <!-- FIN NAVBAR -->
+    <!--------------------------------------- FIN HEADER --------------------------------------->
 
-    <!-- MAIN -->
+    <!--------------------------------------- MAIN --------------------------------------->
 
     <main>
-        <p class="titulocontacto">Contacto</p>
-        <div class="subtitulocontacto">
-            <h2>Si tiene alguna consulta o quiere contratarnos para algun servicio, no dude en contactarnos</h2>
-            </div>
-        <form class="contactoform">
-            <label for="nombre"></label>
-            <input type="nombre" placeholder="Ingrese su Nombre y Apellido"> <br>
-            <label for="telefono"></label>
-            <input type="text" placeholder="Ingrese su numero de teléfono"> <br>
-            <label for="email"></label>
-            <input type="text" placeholder="Ingrese su Email"> <br>
-            <textarea name="consulta" id="" cols="50" rows="15" placeholder="Motivo de su consulta"></textarea> <br>
-            <input class="botonsubmitcontacto" type="submit">
-        </form>
+        <h2 class="text-center mt-5 text-decoration-underline fw-bold">CONTACTO</h2>
+        <div class="contactomain m-5">
+            <h2 class="text-center mb-2 mt-4">Si tiene alguna consulta o quiere contratarnos para algún servicio no dude
+                en contactarnos</h2>
+            <h2 class="text-center mb-4 mt-2 numerocontacto fw-bold">4295 - 8173</h2>
+            <form>
+                <div class="mb-4 d-flex justify-content-center">
+                    <input type="name" class="form-control inputname" placeholder="Ingrese su Nombre y Apellido"
+                        id="exampleInputName1">
+                </div>
+                <div class="mb-4 d-flex justify-content-center">
+                    <input type="tel" class="form-control inputnumero" placeholder="Ingrese su número telefónico"
+                        id="exampleInputTel1">
+                </div>
+                <div class="mb-4 d-flex justify-content-center">
+                    <input type="email" class="form-control inputemail" placeholder="Ingrese su Email"
+                        id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-4 d-flex justify-content-center">
+                    <textarea class="form-control textareaform" placeholder="Motivo de su consulta"
+                        id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="mb-4 d-flex justify-content-center">
+                    <button type="submit" class="btn btn-primary mb-4">Enviar</button>
+                </div>
+            </form>
+        </div>
     </main>
 
+    <!--------------------------------------- FIN MAIN --------------------------------------->
 
-    <!--------------------------------------- FIN HEADER --------------------------------------->
+    <!--------------------------------------- FOOTER --------------------------------------->
+
+    <footer>
+        <div class="container-fluid">
+
+            <div class="row pt-4 bg-black text-white">
+                <div class="row col-xs-12 col-md-6 col-lg-3 footizq">
+                    <a class="h4 text-decoration-none mb-3" href="../index.html">Inicio</a>
+                    <a class="h5 text-decoration-none text-secondary mb-3" href="productos.html">Productos</a>
+                    <a class="h5 text-decoration-none text-secondary mb-3" href="locales.html">Locales</a>
+                    <a class="h5 text-decoration-none text-secondary mb-3" href="nosotros.html">Nosotros</a>
+                    <a class="h5 text-decoration-none text-secondary" href="contacto.html">Contacto</a>
+                </div>
+                <div class="row col-xs-12 col-md-6 col-lg-3">
+                    <p class="h4">Servicios</p>
+                    <a class="h5 text-decoration-none text-secondary" href="#">Servicios a domicilio</a>
+                    <a class="h5 text-decoration-none text-secondary" href="#">Servicio de autos</a>
+                    <a class="h5 text-decoration-none text-secondary" href="#">Servicio de bodegas y caja fuerte</a>
+                    <a class="h5 text-decoration-none text-secondary" href="#">Servicio de reparación de cerraduras</a>
+                </div>
+                <div class="row col-xs-12 col-md-6 col-lg-3">
+                    <p class="h4">Información de la empresa</p>
+                    <a class="h5 text-decoration-none text-secondary " href="#">Acerca de Cerrajería San Jose</a>
+                    <a class="h5 text-decoration-none text-secondary " href="#">Formas de pago</a>
+                    <a class="h5 text-decoration-none text-secondary " href="#">Términos y condiciones </a>
+                    <a class="h5 text-decoration-none text-secondary " href="#">Políticas de privacidad</a>
+                </div>
+                <div class="row col-xs-12 col-md-6 col-lg-3">
+                    <p class="h4">Nuestras Redes</p>
+                    <div class="iconosfooter me-1 mb-3 pe-4">
+                        <a href="https://www.instagram.com" target="_blank" class="ig"><i
+                                class="fa-brands fa-instagram iconoinstagram"></i></a>
+                    </div>
+                    <div class="iconosfooter me-1 mb-3 pe-4">
+                        <a href="https://www.facebook.com" target="_blank" class="fb"><i
+                                class="fa-brands fa-square-facebook iconofacebook"></i></a>
+                    </div>
+                    <div class="iconosfooter me-1">
+                        <a href="https:/www.twitter.com" target="_blank" class="tw"><i
+                                class="fa-brands fa-twitter iconotwitter"></i></a>
+                    </div>
+                    <p class="h4">Formas de pago</p>
+                    <div class="iconosfooter pe-4">
+                        <a href="#" class="visa"><i class="fa-brands fa-cc-visa iconovisa"></i></a>
+                    </div>
+                    <div class="iconosfooter pe-4">
+                        <a href="#" class="mastercard"><i class="fa-brands fa-cc-mastercard iconomastercard"></i></a>
+                    </div>
+                    <div class="iconosfooter pe-4">
+                        <a href="#" class="paypal"><i class="fa-brands fa-cc-paypal iconopaypal"></i></a>
+                    </div>
+                    <div class="iconosfooter pe-4">
+                        <a href="#" class="transferenciabancaria"><i
+                                class="fa-sharp fa-solid fa-building-columns iconotransfer"></i></a>
+                    </div>
+                    <div class="iconosfooter pe-4">
+                        <a href="#" class="bitcoin"><i class="fa-brands fa-bitcoin iconobitcoin"></i></a>
+                    </div>
+
+                </div>
+                <hr class="mt-2">
+                <div>
+                    <p class="text-center">© 1998-2023 Cerrajeria San Jose. Todos los derechos reservados.</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!--------------------------------------- FIN FOOTER --------------------------------------->
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"

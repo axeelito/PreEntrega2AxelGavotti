@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 1200px) {
+    .footizq {
+        margin-left: 50px;
+    }
+}
+
 header {
     width: 100%;
 }
@@ -43,9 +54,9 @@ h1 {
 }
 
 .iconocarrito {
-    width: 23px;
-    height: 23px;
+    font-size: 20px;
 }
+
 
 .inputbusqueda {
     width: 150px;
@@ -60,8 +71,16 @@ h1 {
     width: 400px;
 }
 
-.casainicio img {
-    width: 1000px;
+.imgcasa {
+    cursor: pointer;
+}
+
+.imgauto {
+    cursor: pointer;
+}
+
+.imgcajafuerte {
+    cursor: pointer;
 }
 
 
@@ -77,6 +96,64 @@ h1 {
 
 .candadosproductos {
     margin-top: 100px;
+}
+
+/* Locales */
+
+.mapalocales {
+    width: 500px;
+    height: 450px;
+}
+
+/* NOSOTROS */
+
+.imagen1nosotros {
+    width: 700px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.imagen2nosotros {
+    width: 700px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.mainnosotros {
+    border: 3px solid black;
+    margin: 40px;
+}
+
+/* CONTACTO*/
+
+/* MAIN FORMULARIO */
+
+.inputname {
+    height: 30px;
+    width: 244px;
+}
+
+.inputemail {
+    height: 30px;
+    width: 244px;
+}
+
+.inputnumero {
+    height: 30px;
+    width: 244px;
+}
+
+.textareaform {
+    height: 200px;
+    width: 400px;
+}
+
+.numerocontacto {
+    font-size: 40px;
+}
+
+.contactomain {
+    border: 3px black solid;
 }
 
 /* FOOTER */
@@ -202,94 +279,4 @@ footer {
 .iconobitcoin {
     width: 22px;
     padding-left: 3px;
-}
-
-
-/* Locales */
-
-.local {
-    font-size: 40px;
-    text-align: center;
-    padding-bottom: 30px;
-    text-transform: uppercase;
-    text-decoration: underline;
-}
-
-.mapalocales {
-    align-items: center;
-    display: flex;
-    width: 100%;
-}
-
-.mapap {
-    width: 100%;
-    margin: 0 20px 100px 20px;
-    display: flex;
-    border: 3px black solid;
-    padding: 20px;
-}
-
-.loremmapa {
-    padding-left: 40px;
-    padding-top: 15px;
-}
-
-/* NOSOTROS */
-
-.imagen1nosotros {
-    width: 700px;
-    border-radius: 50px;
-    cursor: pointer;
-}
-
-.imagen2nosotros {
-    width: 700px;
-    border-radius: 50px;
-    cursor: pointer;
-}
-
-.mainnosotros {
-    border: 3px solid black;
-    margin: 40px;
-}
-
-/* CONTACTO*/
-
-/* MAIN FORMULARIO */
-
-.contactoform {
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    padding: 40px;
-}
-
-.contactoform input {
-    width: 250px;
-    height: 30px;
-    cursor: pointer;
-}
-
-.contactoform textarea {
-    padding: 5px;
-}
-
-.titulocontacto {
-    font-size: 40px;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: underline;
-}
-
-.subtitulocontacto {
-    padding-top: 30px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.botonsubmitcontacto {
-    width: 120px;
-    height: 30px;
-    cursor: pointer;
 }
