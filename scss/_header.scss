@@ -1,0 +1,36 @@
+header {
+	width: 100%;
+}
+.logollave {
+	width: 70px;
+	height: 70px;
+	margin-top: 3px;
+}
+
+h1 {
+	font-size: 30px;
+}
+.nav-link {
+	padding: 30px;
+	font-size: 20px;
+	&:hover {
+		text-transform: uppercase;
+	}
+}
+.nav-item {
+	margin: 0 20px;
+}
+.iconobusqueda {
+	width: 20px;
+	height: 20px;
+}
+.botonbusqueda {
+	margin-right: 7px;
+	padding: 3px;
+}
+.iconocarrito {
+	font-size: 20px;
+}
+.botoncarrito {
+	padding: 3px;
+}
