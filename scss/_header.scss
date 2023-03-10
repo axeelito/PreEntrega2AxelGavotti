@@ -1,36 +1,61 @@
+@mixin anclas {
+	padding: 30px;
+	font-size: 20px;
+}
+
 header {
 	width: 100%;
 }
+
 .logollave {
 	width: 70px;
 	height: 70px;
 	margin-top: 3px;
 }
 
+@keyframes texto {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 100%;
+	}
+}
+
 h1 {
 	font-size: 30px;
+	animation-name: texto;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
 }
+
 .nav-link {
-	padding: 30px;
-	font-size: 20px;
+	@include anclas;
+
 	&:hover {
 		text-transform: uppercase;
 	}
 }
+
 .nav-item {
 	margin: 0 20px;
 }
+
 .iconobusqueda {
 	width: 20px;
 	height: 20px;
 }
+
 .botonbusqueda {
 	margin-right: 7px;
 	padding: 3px;
 }
+
 .iconocarrito {
 	font-size: 20px;
 }
+
 .botoncarrito {
 	padding: 3px;
 }

@@ -1,10 +1,28 @@
 /* FOOTER */
 
+@mixin iconosimg1 {
+	width: 22px;
+	padding-left: 3px;
+}
+
+@mixin iconosimg2 {
+	width: 22px;
+	padding-left: 2px;
+}
+
+@mixin iconos {
+	background: gray;
+	padding: 6px;
+	border-radius: 50px;
+	color: $color_1;
+}
+
 footer {
 	width: 100%;
 	margin: 0;
 	padding: 0;
 }
+
 .iconosfooter {
 	width: 30px;
 	height: 30px;
@@ -13,11 +31,9 @@ footer {
 /* instagram */
 
 .ig {
-	background: gray;
-	padding: 6px;
-	border-radius: 50px;
-	color: $color_1;
+	@include iconos;
 }
+
 .iconoinstagram {
 	width: 22px;
 	padding-left: 4px;
@@ -26,90 +42,69 @@ footer {
 /* facebook */
 
 .fb {
-	background: gray;
-	padding: 6px;
-	border-radius: 50px;
-	color: $color_1;
+	@include iconos;
 }
+
 .iconofacebook {
-	width: 22px;
-	padding-left: 3px;
+	@include iconosimg1;
 }
 
 /* twitter */
 
 .tw {
-	background: gray;
-	padding: 6px;
-	border-radius: 500px;
-	color: $color_1;
+	@include iconos;
 }
+
 .iconotwitter {
-	width: 22px;
-	padding-left: 3px;
+	@include iconosimg1;
 }
 
 /* Visa */
 
 .visa {
-	background: gray;
-	padding: 6px;
-	border-radius: 50px;
-	color: $color_1;
+	@include iconos;
 }
+
 .iconovisa {
-	width: 22px;
-	padding-left: 2px;
+	@include iconosimg2;
 }
 
 /* MasterCard */
 
 .mastercard {
-	background: gray;
-	padding: 6px;
-	border-radius: 50px;
-	color: $color_1;
+	@include iconos;
 }
+
 .iconomastercard {
-	width: 22px;
-	padding-left: 2px;
+	@include iconosimg2;
 }
 
 /* Paypal */
 
 .paypal {
-	background: gray;
-	padding: 6px;
-	border-radius: 50px;
-	color: $color_1;
+	@include iconos;
 }
+
 .iconopaypal {
-	width: 22px;
-	padding-left: 2px;
+	@include iconosimg2;
 }
 
 /* Transferencia Bancaria */
 
 .transferenciabancaria {
-	background: gray;
-	padding: 6px;
-	border-radius: 50px;
-	color: $color_1;
+	@include iconos;
 }
+
 .iconotransfer {
-	width: 22px;
-	padding-left: 3px;
+	@include iconosimg1;
 }
 
 /* Bitcoin */
 
 .bitcoin {
-	background: gray;
-	padding: 6px;
-	border-radius: 50px;
-	color: $color_1;
+	@include iconos;
 }
+
 .iconobitcoin {
-	width: 22px;
-	padding-left: 3px;
+	@include iconosimg1;
 }

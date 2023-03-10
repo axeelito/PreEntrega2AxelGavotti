@@ -1,16 +1,18 @@
 /* CONTACTO*/
 
-.inputname {
+@mixin input {
 	height: 30px;
 	width: 244px;
+}
+
+.inputname {
+	@include input;
 }
 .inputemail {
-	height: 30px;
-	width: 244px;
+	@include input;
 }
 .inputnumero {
-	height: 30px;
-	width: 244px;
+	@include input;
 }
 .textareaform {
 	height: 200px;

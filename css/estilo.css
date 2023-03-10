@@ -1,4 +1,5 @@
 @import "https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap";
+
 * {
   margin: 0;
   padding: 0;
@@ -20,14 +21,28 @@ header {
   margin-top: 3px;
 }
 
+@keyframes texto {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
 h1 {
   font-size: 30px;
+  animation-name: texto;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
 }
 
 .nav-link {
   padding: 30px;
   font-size: 20px;
 }
+
 .nav-link:hover {
   text-transform: uppercase;
 }
@@ -82,6 +97,7 @@ h1 {
   height: 10px;
   padding-bottom: 10px;
 }
+
 .card img {
   cursor: pointer;
 }
@@ -186,7 +202,7 @@ footer {
 .tw {
   background: gray;
   padding: 6px;
-  border-radius: 500px;
+  border-radius: 50px;
   color: black;
 }
 

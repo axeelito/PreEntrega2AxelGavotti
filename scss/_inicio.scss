@@ -1,21 +1,21 @@
+@mixin imginicio {
+	width: 750px;
+	height: 420px;
+	cursor: pointer;
+}
+
 .imgcarousel {
 	object-fit: cover;
 }
 
 .imgcasa {
-	width: 750px;
-	height: 420px;
-	cursor: pointer;
+	@include imginicio;
 }
 
 .imgauto {
-	width: 750px;
-	height: 420px;
-	cursor: pointer;
+	@include imginicio;
 }
 
 .imgcajafuerte {
-	width: 750px;
-	height: 420px;
-	cursor: pointer;
+	@include imginicio;
 }
