@@ -8,19 +8,24 @@
 .inputname {
 	@include input;
 }
+
 .inputemail {
 	@include input;
 }
+
 .inputnumero {
 	@include input;
 }
+
 .textareaform {
 	height: 200px;
 	width: 400px;
 }
+
 .numerocontacto {
 	font-size: 40px;
 }
+
 .contactomain {
 	border: 3px black solid;
 }
