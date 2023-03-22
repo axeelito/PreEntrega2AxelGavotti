@@ -1,7 +1,7 @@
 @mixin imginicio {
-	width: 750px;
-	height: 420px;
+	width: 100%;
 	cursor: pointer;
+	object-fit: cover;
 }
 
 .imgcarousel {
@@ -18,4 +18,12 @@
 
 .imgcajafuerte {
 	@include imginicio;
+}
+
+.textoinicio {
+	font-size: 40px;
+}
+
+.tituloinicio {
+	font-size: 50px;
 }
