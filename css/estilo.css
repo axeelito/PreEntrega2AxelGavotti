@@ -169,8 +169,6 @@ h1 {
 /* FOOTER */
 footer {
   width: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 .iconosfooter {
@@ -284,7 +282,7 @@ footer {
 
 @media (min-width: 1200px) {
   .footizq {
-    margin-left: 50px;
+    margin-left: 70px;
   }
 }
 
